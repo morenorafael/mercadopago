@@ -1,0 +1,6 @@
+<?php
+
+return [
+    'public_key' => env('MERCADOPAGO_PUBLIC_KEY', 'TEST-9b70d0bf-495c-462d-9368-236c79208407'),
+    'access_token' => env('MERCADOPAGO_ACCESS_TOKEN', 'TEST-6850121672082267-112211-ecb94e10980b7cda8c83a690f661c3d1-306054879')
+];

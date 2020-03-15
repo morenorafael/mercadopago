@@ -1,0 +1,30 @@
+{
+    "name": "morenorafael/mercadopago",
+    "description": "SDK para el manejo de pagos con MercadoPago",
+    "type": "library",
+    "minimum-stability": "dev",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Rafael Moreno",
+            "email": "alejandro8924@gmail.com"
+        }
+    ],
+    "autoload": {
+        "psr-4": {
+            "MorenoRafael\\Mercadopago\\": "src/"
+        }
+    },
+    "require": {
+        "guzzlehttp/guzzle": "~6.0",
+        "ext-json": "*",
+        "mercadopago/dx-php": "dev-master"
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "MorenoRafael\\Mercadopago\\Providers\\MercadopagoServiceProvider"
+            ]
+        }
+    }
+}
